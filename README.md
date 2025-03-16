@@ -51,9 +51,6 @@ This project is a backend system implemented using **Node.js, MongoDB, and worke
 
 ### **Setup & Run**
 ```sh
-# Clone the Repository
-git clone https://github.com/yourrepo.git
-cd yourrepo
 
 # Install Dependencies
 npm install
