@@ -1,0 +1,34 @@
+{
+  "name": "insured-mine-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "pm2 start server.js --name=insured-mine-poc --restart-delay=1000",
+    "dev": "cross-env NODE_ENV=dev nodemon server.js",
+    "test": "jest --coverage"
+  },
+  "author": "Rohan Naidu Tammineni",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "async_hooks": "^1.0.0",
+    "config": "^3.3.12",
+    "cross-env": "^7.0.3",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "express-winston": "^4.2.0",
+    "mongoose": "^6.0.14",
+    "multer": "^1.4.5-lts.1",
+    "pidusage": "^4.0.0",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "sinon": "^15.0.0",
+    "supertest": "^6.3.0"
+  }
+}

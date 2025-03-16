@@ -1,0 +1,25 @@
+{
+  "SERVER": {
+    "SERVER_PORT": "7000"
+  },
+  "HEALTH": {
+    "HEALTH_CHECK_INTERVAL": 30000,
+    "MAX_CPU_USE_THRESHOLD": 70
+  },
+  "MULTER": {
+    "ALLOWED_TYPES": [
+      "text/csv",
+      "application/vnd.ms-excel",
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    ],
+    "MAX_FILE_SIZE": 512000,
+    "UPLOAD_RECORDS_BATCH_SIZE": 5000
+  },
+  "LOGGER": {
+    "LOG_LEVEL": "info"
+  },
+  "DB": {
+    "RECONNECTION_TIME": 3000,
+    "MAX_POOL_SIZE": 10
+  }
+}
